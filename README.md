@@ -48,3 +48,7 @@ y_1=x_1+np.random.random(N)*0.5#显示正相关数据属性的图像
 plt.scatter(x_1,y_1,s=100,color="black",marker="o")
 plt.show()
 ```
+分别生成的两个图像为：
+
+![image](https://github.com/Gaoshiguo/matplotlib-learning/blob/master/image/2.png)
+![image](https://github.com/Gaoshiguo/matplotlib-learning/blob/master/image/3.png)
