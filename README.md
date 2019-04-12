@@ -16,3 +16,4 @@ plt.show()
 
 ```
 图片展示如下：
+![image](https://github.com/Gaoshiguo/matplotlib-learning/blob/master/image/1.png)
