@@ -116,3 +116,5 @@ plt.show()
 
 生成的个图片展示如下：
 
+![image](https://github.com/Gaoshiguo/matplotlib-learning/blob/master/image/myplot.png)
+
