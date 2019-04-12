@@ -118,3 +118,10 @@ plt.show()
 
 ![image](https://github.com/Gaoshiguo/matplotlib-learning/blob/master/image/myplot.png)
 
+![image](https://github.com/Gaoshiguo/matplotlib-learning/blob/master/image/myplot1.png)
+
+![image](https://github.com/Gaoshiguo/matplotlib-learning/blob/master/image/myplot2.png)
+
+![image](https://github.com/Gaoshiguo/matplotlib-learning/blob/master/image/myplot3.png)
+
+![image](https://github.com/Gaoshiguo/matplotlib-learning/blob/master/image/myplot4.png)
