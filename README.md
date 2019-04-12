@@ -16,4 +16,8 @@ plt.show()
 
 ```
 图片展示如下：
+
 ![image](https://github.com/Gaoshiguo/matplotlib-learning/blob/master/image/1.png)
+
+*接下来，我们依次来展示matplotlib中可支持的各种图形
+## 一、散点图（）
