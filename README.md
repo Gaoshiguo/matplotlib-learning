@@ -219,6 +219,9 @@ plt.title("age-height")
 plt.show()
 
 ```
+生成的图片效果如下图所示：
+
+![image](https://github.com/Gaoshiguo/matplotlib-learning/blob/master/image/myplot-bar.png)
 
 
 
