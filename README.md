@@ -127,8 +127,8 @@ plt.show()
 ![image](https://github.com/Gaoshiguo/matplotlib-learning/blob/master/image/myplot4.png)
 
 ## 三、条形图（bar）
-#条形图也叫直方图，在matplotlib中需要调用plt.bar（）函数，bar(x, height, width=0.8, bottom=None, ***, align='center', data=None, **kwargs)
-#以上是bar()函数中各参数的定义，官方文档中对其说明是：
+*条形图也叫直方图，在matplotlib中需要调用plt.bar（）函数，bar(x, height, width=0.8, bottom=None, ***, align='center', data=None, **kwargs)以上是bar()函数中各参数的定义，官方文档中对其说明是：*
+```
 #x
 
 #x坐标
@@ -196,6 +196,8 @@ plt.show()
 #竖直："vertical"，水平条："horizontal"
 
 #闲话少数，show the code
+```
+
 
 ```
 import numpy as np
