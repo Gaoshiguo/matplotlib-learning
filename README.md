@@ -280,7 +280,7 @@ plt.show()
 
 图片展示如下：
 
-
+![image](https://github.com/Gaoshiguo/matplotlib-learning/blob/master/image/myplot-pie.png)
 
 
 
