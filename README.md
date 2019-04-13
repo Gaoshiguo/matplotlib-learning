@@ -302,5 +302,21 @@ plt.show()
 ![image](https://github.com/Gaoshiguo/matplotlib-learning/blob/master/image/myplot-pie1.png)
 
 
+*2.想将数据直接显示在饼状图之中，可以在原来的基础上添加“autopct="%0.2f%%"”属性*
+
+代码如下：
+
+```
+Label = ["看电影","睡觉","吃饭","打游戏","刷微博","刷小视频","其他"]
+Frac = [5,40,5,10,20,10,10]
+exp =[0.01,0.1,0.01,0.02,0.05,0.02,0.02]
+plt.pie(x=Frac,labels=Label,explode=exp,shadow=True,autopct="%0.2f%%")
+plt.title(u"当代大学生每天花费时间比例图")
+plt.show()
+```
+
+图片效果如下：
+
+![image](https://github.com/Gaoshiguo/matplotlib-learning/blob/master/image/myplot-pie2.png)
 
 
