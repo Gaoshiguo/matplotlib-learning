@@ -282,7 +282,25 @@ plt.show()
 
 ![image](https://github.com/Gaoshiguo/matplotlib-learning/blob/master/image/myplot-pie.png)
 
-*为饼状图添加更多样式
-*1.想突出饼状图中的某一块，可以在原来的基础上添加`explode=exp, shadow=True`属性来着重突出某一块
+**为饼状图添加更多样式 **
+
+**1.想突出饼状图中的某一块，可以在原来的基础上添加`explode=exp, shadow=True`属性来着重突出某一块**
+
+代码如下：
+
+```
+Label = ["看电影","睡觉","吃饭","打游戏","刷微博","刷小视频","其他"]
+Frac = [5,40,5,10,20,10,10]
+exp =[0.01,0.1,0.01,0.02,0.05,0.02,0.02]
+plt.pie(x=Frac,labels=Label,explode=exp,shadow=True)
+plt.title(u"当代大学生每天花费时间比例图")
+plt.show()
+```
+
+图片效果如下：
+
+![image](https://github.com/Gaoshiguo/matplotlib-learning/blob/master/image/myplot-pie1.png)
+
+
 
 
