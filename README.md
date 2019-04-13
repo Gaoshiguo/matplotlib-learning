@@ -212,9 +212,9 @@ y = [100, 140, 170, 175, 178, 176]
 
 # 绘图 x x轴， height 高度, 默认：color="red", width=0.8
 p1 = plt.bar(x, height=y, width=0.5,color= "red", edgecolor = "black", log = False)
-plt.xlabel("age")
-plt.ylabel("height:CM")
-plt.title("age-height")
+plt.xlabel("age")#设置x轴标签
+plt.ylabel("height:CM")#设置y轴标签
+plt.title("age-height")#设置图表标题
 # 展示图形
 plt.show()
 
