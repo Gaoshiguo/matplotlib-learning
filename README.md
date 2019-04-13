@@ -47,7 +47,7 @@ plt.show()
 
 ![image](https://github.com/Gaoshiguo/matplotlib-learning/blob/master/image/2.png)
 
-## 二、折线图（linechart）
+## 二、折线图（linechart）[plot_linechart.py](https://github.com/Gaoshiguo/matplotlib-learning/blob/master/plot_linechart.py)
 折线图只要简单的使用plot（）函数就可以，需要说明的是当缺少x时，系统会默认从0开始以Y的长度来填充，当缺少y时，系统会默认以x作为y轴
 #折线图中的一些参数取值说明：
 #对折线颜色的控制
@@ -126,7 +126,7 @@ plt.show()
 
 ![image](https://github.com/Gaoshiguo/matplotlib-learning/blob/master/image/myplot4.png)
 
-## 三、条形图（bar）
+## 三、条形图（bar）[plot_bar.py](https://github.com/Gaoshiguo/matplotlib-learning/blob/master/plot_bar.py)
 *条形图也叫直方图，在matplotlib中需要调用plt.bar（）函数，bar(x, height, width=0.8, bottom=None, ***, align='center', data=None, **kwargs)以上是bar()函数中各参数的定义，官方文档中对其说明是：*
 ```
 #x
@@ -225,7 +225,7 @@ plt.show()
 
 ![image](https://github.com/Gaoshiguo/matplotlib-learning/blob/master/image/myplot-bar.png)
 
-## 四、饼状图（pie）
+## 四、饼状图（pie）[plot_pie.py](https://github.com/Gaoshiguo/matplotlib-learning/blob/master/plot_pie.py)
 **饼状图，绘制饼状图，需要使用plot.pie()函数，说明文档中各参数的属性取值及其所代表的意思是：
 `#x
 #数据
