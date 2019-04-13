@@ -267,6 +267,20 @@ plt.show()
 #默认是1
 `
 
+我们先来展示一个最简单的饼状图，代码如下：
+
+```
+plt.rcParams['font.family'] = 'SimHei'
+Label = ["看电影","睡觉","吃饭","打游戏","刷微博","刷小视频","其他"]
+Frac = [5,40,5,10,20,10,10]
+plt.pie(x=Frac,labels=Label)
+plt.title(u"当代大学生每天花费时间比例图")
+plt.show()
+```
+
+图片展示如下：
+
+
 
 
 
