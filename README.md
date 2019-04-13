@@ -126,7 +126,7 @@ plt.show()
 
 ![image](https://github.com/Gaoshiguo/matplotlib-learning/blob/master/image/myplot4.png)
 
-## 三、条形图（linechart）
+## 三、条形图（bar）
 #条形图也叫直方图，在matplotlib中需要调用plt.bar（）函数，bar(x, height, width=0.8, bottom=None, ***, align='center', data=None, **kwargs)
 #以上是bar()函数中各参数的定义，官方文档中对其说明是：
 #x
@@ -223,8 +223,49 @@ plt.show()
 
 ![image](https://github.com/Gaoshiguo/matplotlib-learning/blob/master/image/myplot-bar.png)
 
+## 四、饼状图（pie）
+**饼状图，绘制饼状图，需要使用plot.pie()函数，说明文档中各参数的属性取值及其所代表的意思是：
+`#x
+#数据
+#list(代表可传入的参数对象是list类型)
+
+#labels
+#标签
+#list(代表可传入的参数对象是list类型)
+
+#autopct
+#数据标签
+#%0.1%% 保留一位小数
+
+#explode
+#突出的部分
+#list(代表可传入的参数对象是list类型)
 
 
+#shadow
+#是否显示阴影
+#bool(代表可取的参数对象是布尔类型)
+
+
+#pctdistance
+#数据标签的距离圆心位置
+#0~1(代表可取的参数对象是0-1)
+
+
+#labeldistance
+#标签的比例
+#float(代表可传入的参数对象是float类型)
+
+
+#startangle
+#开始绘图的角度
+#float(代表可传入的参数对象是float类型)
+
+
+#radius
+#半径长
+#默认是1
+`
 
 
 
