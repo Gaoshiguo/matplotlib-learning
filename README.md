@@ -282,6 +282,7 @@ plt.show()
 
 ![image](https://github.com/Gaoshiguo/matplotlib-learning/blob/master/image/myplot-pie.png)
 
-
+*为饼状图添加更多样式
+*1.想突出饼状图中的某一块，可以在原来的基础上添加`explode=exp, shadow=True`属性来着重突出某一块
 
 
