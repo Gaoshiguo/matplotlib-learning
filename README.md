@@ -197,7 +197,28 @@ plt.show()
 
 #闲话少数，show the code
 
+```
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib
 
+# 将全局的字体设置为黑体
+matplotlib.rcParams['font.family'] = 'SimHei'
+
+# 数据
+x = [12,14,16,18,20,22]
+y = [100, 140, 170, 175, 178, 176]
+
+
+# 绘图 x x轴， height 高度, 默认：color="red", width=0.8
+p1 = plt.bar(x, height=y, width=0.5,color= "red", edgecolor = "black", log = False)
+plt.xlabel("age")
+plt.ylabel("height:CM")
+plt.title("age-height")
+# 展示图形
+plt.show()
+
+```
 
 
 
