@@ -323,3 +323,16 @@ plt.show()
 
 ## 四、深入了解matplotlib绘图工具
 详情可参考网址[Python各安装包](https://www.jianshu.com/p/b6e48b7adb8a "详解matplotlib工具")
+
+总体而言matplotlib的绘图方式可以分为两种：函数式绘图、面向对象式绘图。
+
+函数式绘图主要通过matplotlib.pyplot这个封装好的包来进行绘图，而这个模块主要又通过两个方面的函数来进行绘图，
+（1）操作类的函数：对于画布，图，子图，坐标轴，图例，背景，网格等的操作。
+
+如：plt.ylabel(), plt.xlabel(), plot.yscale(), plt.legend(), plt.title(), plt.text()……
+
+（2）绘图类的函数：画折线图，散点图，条形图，直方图，饼状图等特点图的绘制函数。
+
+如：plt.scatter, plt.plot(), plt.bar, plot.pie(), plt.hise()……
+而想要深入了解学会matplotlib模块，必须学会面向对象式的画图，
+[官网介绍](https://matplotlib.org/tutorials/introductory/usage.html#sphx-glr-tutorials-introductory-usage-py "详解matplotlib工具")
