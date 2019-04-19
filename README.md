@@ -322,4 +322,4 @@ plt.show()
 ![image](https://github.com/Gaoshiguo/matplotlib-learning/blob/master/image/myplot-pie2.png)
 
 ## 四、深入了解matplotlib绘图工具
-详情可参考网址
+详情可参考网址[Python各安装包](https://www.jianshu.com/p/b6e48b7adb8a "详解matplotlib工具")
